@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Div = styled.div`
-  height: 80vh;
+  height:20vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

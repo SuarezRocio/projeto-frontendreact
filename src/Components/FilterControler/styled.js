@@ -29,6 +29,7 @@ export const Div = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: none;
 `;
 
 export const H3 = styled.h3`
