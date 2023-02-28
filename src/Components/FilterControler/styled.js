@@ -23,12 +23,13 @@ export const Label = styled.label`
   justify-content: space-between;
 `;
 
-export const Div = styled.div`
-  height: 60vh;
+export const Div3 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
+  width: 20%;
 `;
 
 export const H3 = styled.h3`
