@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Div, H3, Label, Input, Button } from "./styled";
+import { Div3, H3, Label, Input, Button } from "./styled";
 
 const FilterControler = (props) => {
   //LOS ESTADOS
@@ -10,7 +10,7 @@ const FilterControler = (props) => {
 
   return (
 
-    <Div>
+    <Div3>
       <H3>Filtro</H3>
       <Label htmlFor="minValue">Valor minimo:</Label>
       <Input type="number" id="minValue" value={props.minValue} onChange={(e) => {
@@ -36,7 +36,7 @@ const FilterControler = (props) => {
                 setSearchName("")*/
       }}>RESET</Button>
 
-    </Div>
+    </Div3>
   )
 };
 

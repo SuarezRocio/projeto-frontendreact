@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
-export const Div = styled.div`
-height: fit-content;
+export const Div2 = styled.div`
 	display: flex;
-  flex-direction: column;
-  width: 80%;
-	justify-content: center;
-	align-items: center;
-	padding: 15px;
-	background: #f99f24;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 300px;
+  max-heigth: 420px;
+  margin:30px auto;
+  justify-content: center;
+  align-items: center;
+  background: #f99f24;
 	box-shadow: 5px 6px 9px rgba(0, 0, 0, 0.29);
 	border-radius: 20px;
 `;
@@ -30,7 +31,8 @@ export const Button = styled.button`
 `;
 export const Img = styled.img`
 width:80%;
-margin:10px;
+max-width: 180px;
+aling-self:center;
 `;
 /*export const Container = styled.container`
 display: flex;

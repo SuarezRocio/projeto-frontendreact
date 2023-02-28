@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Div, H3, Button } from "./styled";
+import { Div1, H3, Button } from "./styled";
 
 
 const Cart = (props) => {
@@ -7,7 +7,7 @@ const Cart = (props) => {
 
   return (
 
-    <Div>
+    <Div1>
       <H3>Carrito</H3>
       <H3>Valor Total:{props.total}</H3>
       {props.carrito.map((producto) => (
@@ -23,7 +23,7 @@ const Cart = (props) => {
           <H3>Cantidad: {producto.quantity}</H3>
         </div>
       ))}
-    </Div>
+    </Div1>
 
   )
 }

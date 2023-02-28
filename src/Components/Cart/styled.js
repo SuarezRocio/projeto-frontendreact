@@ -1,10 +1,11 @@
 import styled from "styled-components";
-export const Div = styled.div`
-  height: 80vh;
+export const Div1 = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  width: 15%;
+  heigth: 100%;
   margin: 0.5rem;
 `;
 
